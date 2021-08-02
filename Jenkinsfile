@@ -20,5 +20,11 @@ pipeline {
                 bat 'echo %date% - %time%'
             }
         }
+        stage('Hello4') {
+            steps {
+                echo 'Hello World4'
+                bat 'echo %date% - %time%'
+            }
+        }
     }
 }
