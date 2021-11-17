@@ -26,5 +26,11 @@ pipeline {
                 echo $(date)
             }
         }
+        stage('Hello5') {
+            steps {
+                echo 'Hello World5'
+                echo $(date)
+            }
+        }
     }
 }
